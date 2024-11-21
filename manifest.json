@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "RapidLink for arXiv",
+  "version": "1.0",
+  "description": "Quickly navigate to a paper on RapidPapers from arXiv paper pages.",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.arxiv.org/abs/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["favicon.ico"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "icons": {
+    "48": "logo.png"
+  }
+}
