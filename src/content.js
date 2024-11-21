@@ -5,7 +5,34 @@ function getArxivIdFromUrl() {
 }
 
 
+function extractCategories(inputString) {
+    const regex = /\(([^)]+)\)/g;
+    let matches = [];
+    let match;
+
+    while ((match = regex.exec(inputString)) !== null) {
+        matches.push(match[1]);
+    }
+
+    return matches;
+}
+
+
+function containsValidCategory(categories) {
+    const validCategories = ['cs.AI', 'cs.CL', 'cs.CV', 'cs.LG', 'cs.MA', 'cs.NE', 'cs.RO', 'stat.ML'];
+    const matches = categories.filter(value => validCategories.includes(value));
+
+    return matches.length > 0;
+}
+
+
 function insertRapidPapersButton() {
+    const subjects = extractCategories(document.querySelector("td.subjects").innerHTML);
+
+    if (!containsValidCategory(subjects)) {
+        return;
+    }
+
     // insert the button by all the paper links
     const fullTextDiv = document.querySelector("div.full-text");
 
