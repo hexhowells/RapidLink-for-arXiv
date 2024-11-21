@@ -12,11 +12,11 @@
   ],
   "web_accessible_resources": [
     {
-      "resources": ["favicon.ico"],
+      "resources": ["assets/favicon.ico"],
       "matches": ["<all_urls>"]
     }
   ],
   "icons": {
-    "48": "logo.png"
+    "48": "assets/logo.png"
   }
 }

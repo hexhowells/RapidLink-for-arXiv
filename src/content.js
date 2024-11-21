@@ -35,7 +35,7 @@ function insertRapidPapersButton() {
 
     // Logo
     const img = document.createElement("img");
-    img.src = chrome.runtime.getURL("favicon.ico");
+    img.src = chrome.runtime.getURL("assets/favicon.ico");
     img.alt = "Rapid papers logo.";
     img.style.width = "20px";
     img.style.height = "20px";
