@@ -56,7 +56,6 @@ function insertRapidPapersButton() {
 
     // Add button to page
     fullTextDiv.appendChild(button);
-    console.log("Button added to the full-text div.");
 }
 
 // Observe the DOM for changes
