@@ -1,4 +1,5 @@
-# RapidLink for arXiv
+# <img src="images/logo192.png" width="45" align="left"> RapidLink for arXiv
+
 Chrome extension to navigate to a paper on [RapidPapers](https://www.rapidpapers.dev) from [arxiv.org](https://www.arxiv.org)
 
 ## Local installation guide
