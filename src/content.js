@@ -30,6 +30,7 @@ function insertRapidPapersButton() {
     const subjects = extractCategories(document.querySelector("td.subjects").innerHTML);
 
     if (!containsValidCategory(subjects)) {
+        console.log('[rapidlink-for-arxiv] paper is not in valid category.');
         return;
     }
 
@@ -37,7 +38,7 @@ function insertRapidPapersButton() {
     const fullTextDiv = document.querySelector("div.full-text");
 
     if (!fullTextDiv) {
-        console.warn('"full-text" div not found on the page.');
+        console.warn('[rapidlink-for-arxiv] "full-text" div not found on the page.');
         return;
     }
 
