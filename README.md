@@ -6,7 +6,7 @@
 
 This extension inserts a RapidPapers button onto arxiv paper pages that are within the list of supported categories. That will then direct you to the RapidPapers page for that paper so you can add it to your library or find similar papers.
 
-Don't know what RapidPapers is? Check it our [here!](https://www.rapidpapers.dev)
+Don't know what RapidPapers is? Check it out [here!](https://www.rapidpapers.dev)
 
 <img src="images/arxiv-example.png">
 
