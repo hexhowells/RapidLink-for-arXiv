@@ -75,7 +75,7 @@ function insertRapidPapersButton() {
     button.addEventListener("click", () => {
         const arxivId = getArxivIdFromUrl();
         if (arxivId) {
-            const rapidPapersUrl = `https://rapidpapers.dev/paper/${arxivId}`;
+            const rapidPapersUrl = `https://rapidpapers.org/paper/${arxivId}`;
             window.open(rapidPapersUrl, "_blank");
         } else {
             alert("Could not extract the arXiv ID from the URL.");
