@@ -1,12 +1,12 @@
 # <img src="images/logo192.png" width="45" align="left"> RapidLink for arXiv
 
-> Chrome extension to navigate to a paper on [RapidPapers](https://www.rapidpapers.dev) from [arxiv.org](https://www.arxiv.org)
+> Chrome extension to navigate to a paper on [RapidPapers](https://www.rapidpapers.org) from [arxiv.org](https://www.arxiv.org)
 
 ---
 
 This extension inserts a RapidPapers button into arxiv paper pages that are within the list of supported categories. That will then direct you to the RapidPapers page for that paper so you can add it to your library or find similar papers.
 
-Don't know what RapidPapers is? Check it out [here!](https://www.rapidpapers.dev)
+Don't know what RapidPapers is? Check it out [here!](https://www.rapidpapers.org)
 
 <img src="images/arxiv-example.png">
 
